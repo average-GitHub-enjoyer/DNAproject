@@ -64,14 +64,3 @@ class Gene:
             if codon.codon_sequence == given_codon_sequence:
                 return i
         return -1
-
-
-
-# gen = Gene("TAGGGAТТAACCGТТATATATATATAGCCATGGATCGAТТATATAGGGAТТAACCGТТATATATATATAGCCATGGATCGAТТATA")
-# a = gen.find_codon("ATA")
-# print(a)
-
-codon1 = Codon("CGT")
-codon2 = Codon("AGA")
-
-print(codon1 == codon2)

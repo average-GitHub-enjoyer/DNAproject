@@ -81,12 +81,6 @@ class Gene:
             for codon in selected_codons:
                 if given_codon_sequence == codon.codon_sequence:
                     return codon.index
-
         # Возвращаем None, если кодон не найден
         return None
 
-
-codon1 = Codon("CGT")
-codon2 = Codon("AGA")
-
-print(codon1 == codon2)
